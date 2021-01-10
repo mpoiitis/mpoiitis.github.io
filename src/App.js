@@ -5,12 +5,12 @@ import Research from 'Research.js';
 import ResearchWrapper from 'ResearchWrapper.js';
 import Contact from 'Contact.js';
 import CssBaseline from "@material-ui/core/CssBaseline";
-import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
+import { createMuiTheme, MuiThemeProvider, responsiveFontSizes } from '@material-ui/core/styles';
 import Header from 'components/Header.js';
 import Footer from 'components/Footer.js';
 import 'App.css';
 
-const theme = createMuiTheme({
+let theme = createMuiTheme({
   palette: {
     primary: {
       main: '#3c1874'
@@ -31,6 +31,8 @@ const theme = createMuiTheme({
     ].join(',')
   },
 });
+
+theme = responsiveFontSizes(theme)
 
 
 function App() {

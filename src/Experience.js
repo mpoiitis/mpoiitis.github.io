@@ -276,7 +276,7 @@ function Experience() {
         <Container className={classes.cardGrid} maxWidth="md">
           <Grid container spacing={4}>
             {technologies.map((tech) => (
-              <Grid item key={tech.number} xs={2}>
+              <Grid item key={tech.number} xs={4} sm={2} md={2} lg={2}>
                 <Chip label={tech.title} clickable color={tech.color} />
               </Grid>
             ))}

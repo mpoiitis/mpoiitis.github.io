@@ -22,7 +22,12 @@ const useStyles = makeStyles((theme) => ({
     },
     heroContent: {
         backgroundColor: theme.palette.background.paper,
-        padding: theme.spacing(8, 0, 6),
+        [theme.breakpoints.down('sm')]: {
+            padding: theme.spacing(0, 1, 0, 1),
+          },  
+        [theme.breakpoints.up('md')]: {
+            padding: theme.spacing(8, 0, 6),
+        },
     },
     heroButtons: {
         marginTop: theme.spacing(4),
@@ -68,14 +73,14 @@ function HomeHero(props) {
         <div className={classes.heroContent}>
             <Container maxWidth="md">
                 <Grid container spacing={3}>
-                    <Grid item sm={4} md={4} lg={4} className={classes.image}>   
+                    <Grid item xs={0} sm={4} md={4} lg={4} className={classes.image}>   
                         <CardMedia
                             className={classes.cardMedia}
                             image={melogo}
                             title="Image of myself"
                         />
                     </Grid>
-                    <Grid item xs={8} md={8} lg={8}>
+                    <Grid item xs={12} sm={8} md={8} lg={8}>
                         <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
                             {props.title}
                         </Typography>
