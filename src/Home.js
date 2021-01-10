@@ -54,10 +54,10 @@ function Home(props) {
               I am a graduate of Aristotle University of Thessaloniki,Greece.<br /> I have studied computer science and I got my Master of Science in Web and Data Science.
               </Paper>
           </Grid>
-          <Grid item sm={0} md={6} lg={6}>
+          <Grid item md={6} lg={6}>
           </Grid>
 
-          <Grid item sm={0} md={6} lg={6}>
+          <Grid item md={6} lg={6}>
           </Grid>
           <Grid item sm={12} md={6} lg={6}>
             <Paper>
@@ -70,10 +70,10 @@ function Home(props) {
               In reality, I am trying to be a <span className={classes.darkSecondary}>data scientist</span>...<br />  I am currently a machine learning engineer/data analyst or better a data freak!
               </Paper>
           </Grid>
-          <Grid item sm={0} md={6} lg={6}>
+          <Grid item md={6} lg={6}>
           </Grid>
 
-          <Grid item sm={0} md={6} lg={6}>
+          <Grid item md={6} lg={6}>
           </Grid>
           <Grid item sm={12} md={6} lg={6}>
             <Paper>
@@ -86,7 +86,7 @@ function Home(props) {
               But really, contributing and helping in the <span className={classes.darkMain}>development of society</span> is what really matters.<br />  People nowadays interact through social media, forming networks so I am investigating these structures.
               </Paper>
           </Grid>
-          <Grid item sm={0} md={6} lg={6}>
+          <Grid item md={6} lg={6}>
           </Grid>
         </Grid>
       </main>
