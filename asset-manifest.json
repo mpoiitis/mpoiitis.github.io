@@ -1,30 +1,36 @@
 {
   "files": {
     "main.css": "/static/css/main.3afab51f.chunk.css",
-    "main.js": "/static/js/main.c6552eb8.chunk.js",
-    "main.js.map": "/static/js/main.c6552eb8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.de65bd89.js",
-    "runtime-main.js.map": "/static/js/runtime-main.de65bd89.js.map",
-    "static/js/2.f6919833.chunk.js": "/static/js/2.f6919833.chunk.js",
-    "static/js/2.f6919833.chunk.js.map": "/static/js/2.f6919833.chunk.js.map",
-    "static/js/3.2bd5b506.chunk.js": "/static/js/3.2bd5b506.chunk.js",
-    "static/js/3.2bd5b506.chunk.js.map": "/static/js/3.2bd5b506.chunk.js.map",
+    "main.js": "/static/js/main.8e34e871.chunk.js",
+    "main.js.map": "/static/js/main.8e34e871.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7e2174ad.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7e2174ad.js.map",
+    "static/js/2.d913c9dc.chunk.js": "/static/js/2.d913c9dc.chunk.js",
+    "static/js/2.d913c9dc.chunk.js.map": "/static/js/2.d913c9dc.chunk.js.map",
+    "static/js/3.dbe267ad.chunk.js": "/static/js/3.dbe267ad.chunk.js",
+    "static/js/3.dbe267ad.chunk.js.map": "/static/js/3.dbe267ad.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.3afab51f.chunk.css.map": "/static/css/main.3afab51f.chunk.css.map",
-    "static/js/2.f6919833.chunk.js.LICENSE.txt": "/static/js/2.f6919833.chunk.js.LICENSE.txt",
+    "static/js/2.d913c9dc.chunk.js.LICENSE.txt": "/static/js/2.d913c9dc.chunk.js.LICENSE.txt",
     "static/media/attrGraph.152c1733.png": "/static/media/attrGraph.152c1733.png",
+    "static/media/benevolentHypothesis.f1f12e15.png": "/static/media/benevolentHypothesis.f1f12e15.png",
+    "static/media/boxplots.a46515e8.png": "/static/media/boxplots.a46515e8.png",
+    "static/media/data.3a9f0c89.png": "/static/media/data.3a9f0c89.png",
     "static/media/diffusion.eb8deb1b.png": "/static/media/diffusion.eb8deb1b.png",
     "static/media/email.28639aed.jpg": "/static/media/email.28639aed.jpg",
     "static/media/github.1d42be2f.jpg": "/static/media/github.1d42be2f.jpg",
+    "static/media/heartbeat.5ae2eec8.svg": "/static/media/heartbeat.5ae2eec8.svg",
     "static/media/laptop.1ac7ae27.jpg": "/static/media/laptop.1ac7ae27.jpg",
     "static/media/linkedin.76025f64.jpg": "/static/media/linkedin.76025f64.jpg",
     "static/media/melogo.7860e1cf.png": "/static/media/melogo.7860e1cf.png",
-    "static/media/scholar.b081345e.jpg": "/static/media/scholar.b081345e.jpg"
+    "static/media/menWomen.10c7cec3.png": "/static/media/menWomen.10c7cec3.png",
+    "static/media/scholar.b081345e.jpg": "/static/media/scholar.b081345e.jpg",
+    "static/media/strokeDiabetesMedication.37569fc6.png": "/static/media/strokeDiabetesMedication.37569fc6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.de65bd89.js",
-    "static/js/2.f6919833.chunk.js",
+    "static/js/runtime-main.7e2174ad.js",
+    "static/js/2.d913c9dc.chunk.js",
     "static/css/main.3afab51f.chunk.css",
-    "static/js/main.c6552eb8.chunk.js"
+    "static/js/main.8e34e871.chunk.js"
   ]
 }
